@@ -1,0 +1,18 @@
+{
+  "package": {
+    "productName": "Toshu",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "identifier": "com.example.toshu",
+      "active": true
+    },
+    "allowlist": {
+      "all": false,
+      "fs": { "all": true },
+      "shell": { "all": false }
+    },
+    "updater": { "active": false }
+  }
+}
